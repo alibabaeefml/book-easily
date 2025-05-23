@@ -43,3 +43,6 @@ test-results/
 
 # Local dev server logs
 *.log
+
+
+/buisness-plan
