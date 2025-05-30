@@ -25,8 +25,8 @@
         </RouterLink>
       </div>
 
-      <footer class="text-xs text-gray-400 pt-8 border-t" dir="rtl">
-        <p>طراحی شده توسط علی بابایی</p>
+      <footer class="text-xs text-gray-400 pt-8 border-t" >
+        <p dir="rtl">طراحی شده توسط علی بابایی</p>
         <p>0098 905 204 9121</p>
         <p>alibabaei.workmail@gmail.com</p>
       </footer>
