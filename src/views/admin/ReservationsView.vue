@@ -8,7 +8,7 @@
       </div>
 
       <div v-else>
-        <div v-if="sortedReservations.length === 0" class="text-center text-gray-500">
+        <div v-if="sortedReservations.length === 0" class="text-center text-gray-500" dir="rtl">
           هنوز رزروی ثبت نشده است.      
         </div>
 
