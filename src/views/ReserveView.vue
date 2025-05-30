@@ -71,10 +71,10 @@
         <!-- Submit -->
         <button
           type="submit"
-          class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-semibold transition shadow-sm hover:shadow-md"
+          class="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white py-3 rounded-xl font-semibold transition shadow-sm hover:shadow-md"
           :disabled="loading"
         >
-          <span v-if="loading">در حال ارسال...</span>
+          <span v-if="loading" dir="rtl">در حال ارسال...</span>
           <span v-else>تایید و ثبت رزرو</span>
         </button>
       </form>
