@@ -26,7 +26,9 @@
       </div>
 
       <footer class="text-xs text-gray-400 pt-8 border-t" dir="rtl">
-        طراحی شده توسط علی بابایی
+        <p>طراحی شده توسط علی بابایی</p>
+        <p>0098 905 204 9121</p>
+        <p>alibabaei.workmail@gmail.com</p>
       </footer>
     </div>
   </div>
