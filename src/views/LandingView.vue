@@ -53,7 +53,7 @@
       <div class="max-w-xl mx-auto bg-blue-50 border border-blue-200 rounded-2xl p-8">
         <h3 class="text-2xl font-bold text-blue-700 mb-4">فقط 1 میلیون تومان برای اولین مشتریان</h3>
         <p class="text-gray-600 mb-6">
-          راه‌اندازی اولیه، بدون هزینه‌ ماهانه، همراه با پشتیبانی یک ماهه و امکان شخصی‌سازی محدود
+          راه‌اندازی اولیه، امکان شخصی‌سازی کامل و پشتیبانی 3 ماهه رایگان
         </p>
         <a
           href="https://wa.me/989052049121"
