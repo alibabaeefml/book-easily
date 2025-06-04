@@ -81,7 +81,7 @@
 
       <!-- Footer -->
       <div class="text-center text-xs text-gray-400 pt-4 border-t" dir="rtl">
-        طراحی شده توسط Ali Babaei
+        طراحی شده توسط علی بابایی
       </div>
     </div>
   </div>
