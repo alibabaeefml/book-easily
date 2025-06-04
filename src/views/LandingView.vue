@@ -51,9 +51,9 @@
     <section class="py-20 px-6 bg-white text-center" dir="rtl">
       <h2 class="text-3xl font-bold mb-8">تعرفه ویژه راه‌اندازی</h2>
       <div class="max-w-xl mx-auto bg-blue-50 border border-blue-200 rounded-2xl p-8">
-        <h3 class="text-2xl font-bold text-blue-700 mb-4">فقط ۲۰۰ هزار تومان برای اولین مشتریان</h3>
+        <h3 class="text-2xl font-bold text-blue-700 mb-4">فقط 1 میلیون تومان برای اولین مشتریان</h3>
         <p class="text-gray-600 mb-6">
-          راه‌اندازی اولیه، بدون هزینه‌ ماهانه، همراه با پشتیبانی اولیه و امکان شخصی‌سازی محدود.
+          راه‌اندازی اولیه، بدون هزینه‌ ماهانه، همراه با پشتیبانی یک ماهه و امکان شخصی‌سازی محدود
         </p>
         <a
           href="https://wa.me/989052049121"
