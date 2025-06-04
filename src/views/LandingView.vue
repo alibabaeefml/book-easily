@@ -56,7 +56,7 @@
           راه‌اندازی اولیه، بدون هزینه‌ ماهانه، همراه با پشتیبانی اولیه و امکان شخصی‌سازی محدود.
         </p>
         <a
-          href="https://wa.me/989123456789"
+          href="https://wa.me/989052049121"
           target="_blank"
           class="inline-block bg-blue-600 text-white py-3 px-6 rounded-xl hover:bg-blue-700 transition"
         >
