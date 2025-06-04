@@ -22,7 +22,7 @@
             <div class="flex flex-col sm:flex-row justify-between text-sm text-gray-700 mb-2">
               <div class="mb-1 sm:mb-0">
                 <span class="font-bold text-gray-800">📅 تاریخ:</span>
-                <span>{{ res.date }}</span>
+                <span> {{ res.date }}</span>
               </div>
               <div>
                 <span class="font-bold text-gray-800">⏰ ساعت:</span>
