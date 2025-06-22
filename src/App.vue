@@ -2,6 +2,8 @@
 import { RouterView } from 'vue-router'
 import { onMounted } from 'vue'
 import { useStore } from '@/stores/store'
+import IOSPWAHint from '@/components/IOSPWAHint.vue'
+
 onMounted(() => {
   const store = useStore()
   const appData = localStorage.getItem('appData')
@@ -16,6 +18,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <IOSPWAHint />
   <RouterView />
 </template>
 

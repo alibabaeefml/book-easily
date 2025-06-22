@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="icon" href="/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Book Easily</title>
 
   <link rel="manifest" href="/manigest.json">
@@ -144,103 +144,12 @@
     href="splash_screens/8.3__iPad_Mini_portrait.png">
 
 
-  <style>
-    @font-face {
-    font-family: vazir;
-    src: url(assets/Vazirmatn-Regular.woff2);
-}
-    #iosInstallBanner {
-      direction: rtl;
-      position: fixed;
-      bottom: 16px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #fff;
-      color: #1f2937;
-      border: 1px solid #e5e7eb;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-      border-radius: 12px;
-      padding: 16px;
-      max-width: 90%;
-      width: 360px;
-      z-index: 9999;
-      display: none;
-      flex-direction: row;
-      align-items: center;
-      gap: 12px;
-      font-family: sans-serif;
-    }
 
-    #iosInstallBanner img {
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-      flex-shrink: 0;
-    }
-
-    #iosInstallBanner .text {
-      flex: 1;
-      font-size: 14px;
-    }
-
-    #iosInstallBanner .title {
-      margin: 0;
-      font-weight: bold;
-      font-size: 15px;
-    }
-
-    #iosInstallBanner .icon {
-      display: inline-block;
-      padding: 0 4px;
-      background-color: #f3f4f6;
-      border-radius: 4px;
-      font-size: 13px;
-    }
-
-    #iosInstallBanner .closeBtn {
-      background: none;
-      border: none;
-      font-size: 20px;
-      color: #6b7280;
-      cursor: pointer;
-      padding: 0 4px;
-    }
-  </style>
 </head>
 
 <body>
-  <div id="iosInstallBanner">
-    <img src="icons//ios/180.png" alt="آیکون برنامه" />
-    <div class="text">
-      <p class="title">نصب برنامه رزرو آسان</p>
-      <p>
-        روی <span class="icon">اشتراک‌گذاری</span> بزنید و سپس
-        <strong>«افزودن به صفحه اصلی»</strong> را انتخاب کنید.
-      </p>
-    </div>
-    <button class="closeBtn" aria-label="بستن">&times;</button>
-  </div>
-
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
-  <script>
-    function isIos() {
-      return /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());
-    }
-
-    function isInStandaloneMode() {
-      return 'standalone' in window.navigator && window.navigator.standalone;
-    }
-
-    if (isIos() && !isInStandaloneMode()) {
-      document.getElementById('iosInstallBanner').style.display = 'flex';
-    }
-
-    document.querySelector('#iosInstallBanner .closeBtn')?.addEventListener('click', () => {
-      document.getElementById('iosInstallBanner').style.display = 'none';
-    });
-
-  </script>
 </body>
 
 </html>
