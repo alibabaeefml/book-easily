@@ -26,8 +26,8 @@ const store = useStore()
           <p class="flex flex-wrap gap-1 items-center ">
 
             <AddToHomeScreenIcon class="w-6 h-6 fill-blue-700" /> را انتخاب و در منو باز شده، گزینه
-            <div class=" flex items-center justify-between gap-1">
-              <div class="w-5 h-5 rounded-md border flex items-center justify-center text-lg">+</div>
+            <div class="flex items-center justify-between gap-1">
+              <div class="w-4 h-4 rounded-sm border flex items-center justify-center text-lg">+</div>
               Add to Home Screen
             </div>
   
